@@ -1,0 +1,19 @@
+{
+  "name": "conceito-node-2.0",
+  "version": "1,0,0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mongodb": "^6.9.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.21.1"
+  }
+}
